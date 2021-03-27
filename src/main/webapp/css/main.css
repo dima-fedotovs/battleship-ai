@@ -1,0 +1,47 @@
+body, html {
+    height: 100%;
+    font-family: "Raleway", sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.box {
+    background-color: black;
+    opacity: 0.5;
+    width: 520px;
+    height: 350px;
+}
+
+.container {
+    background: url('../img/landingbk.png') center;
+    background-size: cover;
+    min-height: 100%;
+}
+
+table.field {
+    display: inline-block;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table.field td {
+    border: 1px solid black;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+}
+
+table.field td.SHIP {
+    background-color: black;
+}
+
+table.field td.HIT {
+    background-color: red;
+}
+
+table.field td.MISS {
+    background-color: aqua;
+}
